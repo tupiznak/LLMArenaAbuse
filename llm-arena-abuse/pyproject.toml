@@ -3,7 +3,10 @@ name = "llm-arena-abuse"
 version = "0.1.0"
 description = "Add your description here"
 authors = [{ name = "tupiznak"}]
-dependencies = []
+dependencies = [
+    "gradio-client>=1.0.1",
+    "pyppeteer>=2.0.0",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
